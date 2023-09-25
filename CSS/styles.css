@@ -69,7 +69,8 @@ a {
 .welcome-container,
 .contact-container,
 .about-container,
-.curtain-container {
+.curtain-container,
+.blinds-container {
   position: relative;
   color: white;
   width: 100%;
@@ -81,23 +82,30 @@ a {
 }
 
 .contact-container {
-  height: 300px;
+  max-height: 300px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/contact-page-image.webp);
   background-repeat: no-repeat;
 }
 
 .about-container {
-  height: 300px;
+  max-height: 300px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/aboutus-container.jpg);
   background-repeat: no-repeat;
 }
 
 .curtain-container {
-  height: 300px;
+  max-height: 300px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/curtain-images/header-image.webp);
+  background-repeat: no-repeat;
+}
+
+.blinds-container {
+  max-height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/blinds-images/blinds-container.webp);
   background-repeat: no-repeat;
 }
 

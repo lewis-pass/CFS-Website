@@ -611,7 +611,6 @@ footer {
 .column {
   position: relative;
   /* display: inline-block; */
-  /* background-color: lightblue; */
   flex-basis: 19%;
   text-align: center;
   align-items: center;
@@ -676,4 +675,46 @@ footer {
 .column:hover .image-container {
   filter: brightness(0.4);
   transition: 0.4s ease;
+}
+
+.navigate-container {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.navigate--header h1 {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.navigate--buttons {
+  margin: auto;
+  display: flex;
+}
+
+.navigate--buttons button {
+  margin: 0 30px;
+  padding: 10px 20px;
+  font-size: 30px;
+  cursor: pointer;
+  background: #008e99;
+  border: 2px white solid;
+  color: white;
+  transition: 0.4s ease;
+  text-transform: uppercase;
+  border-radius: 7px;
+}
+
+.navigate--buttons a {
+  color: inherit;
+}
+
+.navigate--buttons button:hover {
+  color: #008e99;
+  background: white;
+  border: 2px solid #008e99;
 }

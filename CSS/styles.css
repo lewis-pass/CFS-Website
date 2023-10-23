@@ -15,6 +15,8 @@ a {
   text-decoration: none;
 }
 
+/* NAVIGATION BAR STYLES */
+
 .navbar {
   display: flex;
   height: 80px;
@@ -65,6 +67,8 @@ a {
 .nav-links ul li:hover::after {
   width: 100%;
 }
+
+/* MAIN BACKGROUND IMAGES STYLES */
 
 .welcome-container,
 .contact-container,
@@ -117,6 +121,8 @@ a {
   background-repeat: no-repeat;
 }
 
+/* MAIN HEADING STYLES */
+
 .welcome-heading,
 .page-title {
   position: absolute;
@@ -130,6 +136,8 @@ a {
   font-size: 90px;
   letter-spacing: 1px;
 }
+
+/* OPENING MESSAGE STYLES */
 
 .opening-message-container {
   margin: 100px 0 0 0;
@@ -149,6 +157,8 @@ a {
   margin-top: 20px;
   color: #333;
 }
+
+/* BENEFITS SECTION STYLES */
 
 .benefits-column-layout {
   display: flex;
@@ -192,6 +202,8 @@ svg {
   font-size: 20px;
   line-height: 25px;
 }
+
+/* PRODUCT LINKS SECTION STYLES */
 
 .product-link-background {
   background: #333;
@@ -259,6 +271,8 @@ svg {
   color: #008e99;
 }
 
+/* REVIEWS SECTION STYLES */
+
 .testimonial-header {
   display: flex;
   justify-content: center;
@@ -323,6 +337,8 @@ svg {
   color: #008e99;
 }
 
+/* FOOTER STYLES */
+
 footer {
   background: #333;
   color: white;
@@ -366,6 +382,8 @@ footer {
   text-transform: capitalize;
   word-spacing: 1px;
 }
+
+/* CONTACT PAGE STYLES */
 
 .contact-box {
   display: flex;
@@ -471,7 +489,7 @@ footer {
 
 .contact-box .right textarea {
   resize: vertical;
-  height: 100px;
+  height: 94px;
   max-height: 600px;
   border-radius: 2px;
 }
@@ -494,9 +512,7 @@ footer {
   background: #111;
 }
 
-.invalid-input {
-  border: 2px solid red;
-}
+/* ABOUT US PAGE STYLES */
 
 .aboutUs-heading {
   margin: 50px auto;
@@ -564,6 +580,8 @@ footer {
   color: #6c6c6c;
 }
 
+/* CURTAIN PAGE HEADER */
+
 .curtains-header {
   justify-content: center;
   text-align: center;
@@ -587,6 +605,8 @@ footer {
   transform: translate(-50%, -50%);
   font-size: 40px;
 }
+
+/* BLINDS, SHUTTERS AND CURTAINS STYLES */
 
 .boxes-wrapper {
   padding: 20px;
@@ -676,6 +696,8 @@ footer {
   filter: brightness(0.4);
   transition: 0.4s ease;
 }
+
+/* NAVIGATE BUTTON STYLES */
 
 .navigate-container {
   max-width: 90%;

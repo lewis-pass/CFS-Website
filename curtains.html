@@ -9,23 +9,30 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="CSS/styles.css" />
     <script src="js/script.js" defer></script>
     <title>CFS Website</title>
   </head>
   <body>
-    <div class="navbar">
-      <div class="logo">
-        <h1><a href="index.html">CFS</a></h1>
-      </div>
-      <div class="nav-links">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="aboutUs.html">About Us</a></li>
-        </ul>
-      </div>
-    </div>
+    <header class="header">
+      <a href="#" class="logo">CFS</a>
+
+      <input type="checkbox" id="check">
+      <label for="check" class="icons">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-x' id="close-icon"></i>
+      </label>
+
+      <nav class="navbar">
+        <a href="index.html">Home</a></li>
+        <a href="contact.html">Contact</a></li>
+        <a href="aboutUs.html">About Us</a></li>
+      </nav>
+    </header>
 
     <div class="curtain-container">
       <div class="page-title"><h1>Curtains</h1></div>
@@ -154,8 +161,6 @@
         <button><a href="shutters.html">Shutters</a></button>
       </div>
     </div>
-
-    <!-- Add a section that allows you to navigate to the shutters and blinds pages -->
 
     <footer>
       <div class="footer-content">

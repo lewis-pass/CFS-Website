@@ -103,7 +103,7 @@
 .shutters-container {
   position: relative;
   color: white;
-  width: 100%;
+  max-width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/welcome-background.jpg);
   background-size: cover;
@@ -145,6 +145,9 @@
   background-repeat: no-repeat;
 }
 
+@media (max-width: 480px) {
+}
+
 /* MAIN HEADING STYLES */
 
 .welcome-heading,
@@ -159,6 +162,13 @@
 .page-title h1 {
   font-size: 90px;
   letter-spacing: 1px;
+}
+
+@media (width <= 480px) {
+  .welcome-heading h1,
+  .page-title h1 {
+    font-size: 4rem;
+  }
 }
 
 /* OPENING MESSAGE STYLES */
@@ -180,6 +190,15 @@
 .opening-message-container p {
   margin-top: 20px;
   color: #333;
+}
+
+@media (width <= 480px) {
+  .opening-message-container h1 {
+    font-size: 1.6rem;
+  }
+  .opening-message-container p {
+    font-size: 0.8rem;
+  }
 }
 
 /* BENEFITS SECTION STYLES */
@@ -225,6 +244,30 @@ svg {
   color: #6c6c6c;
   font-size: 20px;
   line-height: 25px;
+}
+
+@media (width <= 480px) {
+  .benefits-column-layout {
+    flex-direction: column;
+    margin: 60px auto;
+  }
+
+  .col {
+    margin-bottom: 2rem;
+  }
+
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .col h3 {
+    font-size: 1.5rem;
+  }
+
+  .col p {
+    font-size: 1rem;
+  }
 }
 
 /* PRODUCT LINKS SECTION STYLES */
@@ -295,6 +338,20 @@ svg {
   color: #008e99;
 }
 
+@media (width <= 480px) {
+  .product-link-background {
+    height: 298vh;
+  }
+
+  .product-link-container {
+    flex-direction: column;
+  }
+
+  .product-link {
+    margin-bottom: 15rem;
+  }
+}
+
 /* REVIEWS SECTION STYLES */
 
 .testimonial-header {
@@ -361,6 +418,17 @@ svg {
   color: #008e99;
 }
 
+@media (width <= 480px) {
+  .testimonial-header {
+    margin-bottom: -10px;
+  }
+  .testimonial-wrapper {
+    flex-direction: column;
+  }
+  .testimonial-wrapper .box {
+    margin: 10px 0;
+  }
+}
 /* FOOTER STYLES */
 
 footer {
@@ -405,6 +473,24 @@ footer {
   font-size: 14px;
   text-transform: capitalize;
   word-spacing: 1px;
+}
+
+@media (width <= 480px) {
+  footer {
+    margin-top: -10px;
+  }
+  .footer-content h3 {
+    font-size: 1.4rem;
+  }
+
+  .footer-content p {
+    max-width: 90%;
+    font-size: 0.8rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.7rem;
+  }
 }
 
 /* CONTACT PAGE STYLES */
